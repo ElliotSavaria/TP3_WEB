@@ -9,6 +9,7 @@ body {
     background: url('image/background3.png') no-repeat center center fixed;
     background-size: cover;
     color: #B1E7F0;
+    text-align: center;
     
 }
 
@@ -48,19 +49,18 @@ a:hover {
 
 #TitreMain {
     color:#B1E7F0;
-    font-size: 1.8rem;
-    margin: 0 auto;
+    width: 80%; 
+    margin: 20px auto; 
     text-align: center;
-
+    background-image: url('image/pda6.png');
 }
 
 
 #avoir {
-    background: rgb(0, 0, 0);
-    width: 80%;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 10px;
+    background-image: url('image/Pda3.png');
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: 0%;
 }
 
 #avoir ul {
@@ -73,6 +73,28 @@ a:hover {
     content: "• ";
     color: #B1E7F0; 
     font-size: 1.2rem;
+}
+
+
+#PlaneteBox {
+    background-image: url('image/Pda3.png');
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: 0%;
+}
+
+#ContactBox {
+    background-image: url('image/Pda3.png');
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: 0%;
+}
+
+#ProposBox {
+    background-image: url('image/Pda3.png');
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: 0%;
 }
 
 
@@ -126,7 +148,6 @@ footer {
 footer img {
     width: 50px;
     vertical-align: middle;
-    
 }
 
 footer td {
@@ -134,10 +155,6 @@ footer td {
     
 }
 
-#titreContact {
-    text-align: center;
-    margin: auto;
-}
 
 #SousTitreContact {
     text-align: left;
@@ -147,6 +164,9 @@ footer td {
 #formulaire {
     text-align: left;
 }
+
+
+
 
 
 
