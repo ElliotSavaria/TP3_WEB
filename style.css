@@ -1,119 +1,135 @@
-body {
+* {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-image: url('image/background3.png');
-    color: #B1E7F0;
-    text-align: center;
-    }
-    
-    table {
-    width: 90%;
-    margin: 0 auto;
-    padding: 10px 0;
-    color: #B1E7F0;
-    background-color: #094868;
-    border-spacing: 15px;
-    }
-
-
-    
-    table td {
-    text-align: center;
-    padding: 10px;
-    }
-
-    td {
-    vertical-align: top;
-    padding: 10px;
-    }
-    
-    table a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    }
-    
-    table a:hover {
-    text-decoration: underline;
-    }
-    
-    h2 {
-    font-size: 1.5em;
-    margin: 20px 0;
-    }
-    
-    h3 {
-    font-size: 1.2em;
-    margin: 10px 0;
-    }
-    
-    ul {
-    list-style-type: none;
     padding: 0;
-    margin: 10px 0;
-    }
-    
-    ul li {
-    margin: 5px 0;
-    }
+    box-sizing: border-box;
+}
 
-
-    #TitreMain  {
-        background-image: url('image/Pda3.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: auto;
-        }
-    
-
-
-    table {
-    margin: 20px auto;
-    border-spacing: 15px;
-    }
-    
-    td img {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 10px;
-    }
-    
-    td h2 {
-    margin-top: 10px;
-    font-size: 1.2em;
-    }
-    
-    td p {
-    font-size: 1em;
-    margin: 10px 0;
-    }
-    
-    td a {
-    color: #B1E7F0;
-    text-decoration: none;
-    font-weight: bold;
-    }
-    
-    td a:hover {
-    text-decoration: underline;
-    }
-    
-    footer {
-    padding: 20px 0;
-    }
-    
-    footer table {
-    width: 100%;
-    text-align: center;
-    }
-    
-    footer img {
-    max-height: 50px;
-    max-width: 50px;
-    }
-    
-    footer td {
-    background-color: black;
+body {
+    font-family: Arial, sans-serif;
+    background: url('image/background3.png') no-repeat center center fixed;
+    background-size: cover;
     color: white;
-    font-size: 0.9em;
-    }
+}
+
+#Menu {
+    background-image: url('image/water3.png');
+    background-size: contain;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    color:#B1E7F0;
+}
+
+table img {
+    width: 50px; 
+    margin: 10px;
+}
+
+table td {
+    text-align: center;
+    padding: 10px;
+    color: #B1E7F0;
+}
+
+a {
+    text-decoration: none;
+    color: #B1E7F0;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #B1E7F0; 
+}
+
+
+#TitreMain {
+    color:#B1E7F0;
+    font-size: 1.8rem;
+    margin: 10px 0;
+
+}
+
+
+#avoir {
+    background: rgb(0, 0, 0);
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#avoir ul {
+    list-style: none;
+    padding: 10px;
+    line-height: 1.8;
+}
+
+#avoir li::before {
+    content: "• ";
+    color: #B1E7F0; 
+    font-size: 1.2rem;
+}
+
+
+table tr {
+    text-align: center;
+}
+
+#image1main,
+#image2main,
+#image3main {
+    width: 200px; 
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+table td h2 {
+    color:#B1E7F0;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+table td p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+table td a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #578399; 
+    color: #B1E7F0;
+    border-radius: 100px;
+    font-size: 1rem;
+}
+
+table td a:hover {
+    background: #43648F; 
+
+
+footer {
+    background: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+footer img {
+    width: 50px;
+    vertical-align: middle;
+    
+}
+
+footer td {
+    text-align: center;
+    
+}
+}
