@@ -6,16 +6,57 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: url('image/background3.png') no-repeat center center fixed;
-    background-size: cover;
+    background-image: url('image/water3.png')  , url('image/background3.png') ;
+    background-position: top center  , center center ; 
+    background-size: 1920px 200px , 1920px 5000px ;
+    background-repeat: no-repeat , no-repeat ;
+    background-position: 0px 0px , 0px 200px ;
     color: #B1E7F0;
     text-align: center;
-    
 }
 
-#Menu {
-    background-image: url('image/water3.png');
-    background-position: 10%
+#Titre_Main {  color:#B1E7F0;
+    margin: auto;
+    height: 250px;
+    width: 900px;
+    padding: 45px;
+    text-align: center;
+    background-image: url('image/Pda3.png');
+    background-size: 750px ;
+    background-repeat: no-repeat ;
+    background-position: center center ;
+}
+
+
+#avoir {
+    margin: auto;
+    height: 400px;
+    padding: 1000px;
+    background-image: url('image/Pda\ 4\ .png');
+    background-size: 550px;
+    background-repeat: no-repeat ;
+    background-position: 51% center;
+}
+
+#avoir ul {
+    list-style: none;
+    line-height: 1.8;
+}
+
+#avoir li::before {
+    content: "• ";
+    color: #B1E7F0; 
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+    #Menu {
+   margin: auto;
+   width: 1200px;
 }
 
 table {
@@ -32,7 +73,6 @@ table img {
 
 table td {
     text-align: center;
-    padding: 10px;
     color: #B1E7F0;
 }
 
@@ -47,56 +87,23 @@ a:hover {
 }
 
 
-#TitreMain {
-    color:#B1E7F0;
-    width: 80%; 
-    margin: 20px auto; 
-    text-align: center;
-    background-image: url('image/pda6.png');
-}
 
 
-#avoir {
-    background-image: url('image/Pda3.png');
-    background-size: cover;
-    background-repeat: no-repeat ;
-    background-position: 0%;
-}
-
-#avoir ul {
-    list-style: none;
-    padding: 10px;
-    line-height: 1.8;
-}
-
-#avoir li::before {
-    content: "• ";
-    color: #B1E7F0; 
-    font-size: 1.2rem;
-}
 
 
-#PlaneteBox {
-    background-image: url('image/Pda3.png');
-    background-size: cover;
-    background-repeat: no-repeat ;
-    background-position: 0%;
-}
 
-#ContactBox {
-    background-image: url('image/Pda3.png');
-    background-size: cover;
-    background-repeat: no-repeat ;
-    background-position: 0%;
-}
 
+
+#PlaneteBox ,
+#ContactBox ,
 #ProposBox {
+     margin: auto;
+     padding: 100px ;
     background-image: url('image/Pda3.png');
-    background-size: cover;
+    background-size: 700px;
     background-repeat: no-repeat ;
-    background-position: 0%;
+    background-position: center center;
 }
-
 
 table tr {
     text-align: center;
@@ -105,10 +112,17 @@ table tr {
 #image1main,
 #image2main,
 #image3main {
-    width: 200px; 
+    
+    margin-left:100px ;
+    margin-right:auto;
+    width: 600px; 
     height: auto;
-    border-radius: 10px;
-    margin: 10px;
+    border-radius: 20px;
+    padding: 100px;
+    background-image: url('image/pda6.png');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 table td h2 {
@@ -134,7 +148,7 @@ table td a {
 
 table td a:hover {
     background: #43648F; 
-
+}
 
 footer {
     background: black;
