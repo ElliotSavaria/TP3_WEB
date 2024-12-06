@@ -27,7 +27,6 @@ body {
     background-position: center center ;
 }
 
-
 #avoir {
     margin: auto;
     height: 400px;
@@ -49,14 +48,59 @@ body {
     font-size: 1.2rem;
 }
 
-
-
-
-
-
     #Menu {
    margin: auto;
    width: 1200px;
+}
+
+#info {  
+    color:#B1E7F0;
+    margin: auto;
+    height: 500px;
+    width: 900px;
+    padding-top: 200px;
+padding-left: 100px;
+padding-right: 100px;
+    background-image: url('image/Pda3.png');
+    background-size: 900px ;
+    background-rSepeat: no-repeat ;
+    background-position: center -10px  ;
+}
+
+#insp  { 
+color:#B1E7F0;
+    margin: auto;
+    height: 490px;
+    width: 800px;
+    padding-top: 56px;
+    padding-left: 55px;
+    padding-right: 55px;
+    background-image: url('image/pda6.png');
+    background-size: 800px ;
+    background-repeat: no-repeat ;
+    background-position: 0px -10px 
+
+   
+}
+
+#Elliot {
+    text-align: center;
+    padding: 200px;
+height: 500px;
+background-image: url('image/pda6.png');
+background-size: 850px ;
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+#Camille {
+    text-align: center;
+    padding: 200px;
+height: 500px;
+background-image: url('image/pda6.png');
+background-size: 850px ;
+background-repeat: no-repeat;
+background-position: center center;
 }
 
 table {
@@ -86,13 +130,18 @@ a:hover {
     color: #B1E7F0; 
 }
 
+#form {
+height: 1000px;
+width: 100px;
+    padding-left: 600px;
+    padding-right: 500px;
+    padding-bottom: 0px;
+    background-image: url('image/PDA5.png');
+    background-size: 1450px;
+    background-repeat: no-repeat ;
+    background-position: 100px 0px;
 
-
-
-
-
-
-
+}
 
 #PlaneteBox ,
 #ContactBox ,
@@ -151,37 +200,119 @@ table td a:hover {
 }
 
 footer {
+    text-align: left;
     background: black;
-    padding: 20px;
+    padding: 50px;
     color: white;
     text-align: center;
     margin-top: 20px;
     
 }
 
-footer img {
-    width: 50px;
-    vertical-align: middle;
-}
-
-footer td {
-    text-align: center;
-    
+#titreContact {
+    margin-left:500px ;
+    margin-right:auto;
+    padding-bottom: 100px;
+    width: 600px; 
+    height: 50px;
+    padding: 100px;
+    background-image: url('image/Pda3.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center 50px;
+   
 }
 
 
 #SousTitreContact {
-    text-align: left;
-    margin: 0 auto;
+
+    margin-left:300px ;
+    margin-right:auto;
+    padding-bottom: 100px;
+    width: 1000px; 
+    height: 300px;
+    padding: 100px;
+    background-image: url('image/Pda3.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center -150px;
 }
 
-#formulaire {
-    text-align: left;
+#TitreLibre  {
+    margin-left:300px ;
+    margin-right:auto;
+    padding-bottom: 100px;
+    width: 1000px; 
+    height: 100px;
+    padding: 100px;
+    background-image: url('image/Pda3.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center 50px
+}
+#section12 {
+    margin-top: 200px;
+    margin-left:auto ;
+    margin-right:auto;
+    padding-bottom: 100px;
+    width: 700px; 
+    height: 700px;
+    padding: 100px;
+    background-image: url('image/pda6.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center 00px
+
+
+}
+
+
+#section21 {
+    margin-left:300px ;
+    margin-right:auto;
+    padding-bottom: 100px;
+    width: 100px; 
+    height: 300px;
+    padding: 100px;
+    background-image: url('image/Pda\ 4\ .png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center 00px
+
+
+}
+
+#section32 {
+    margin-left:300px ;
+    margin-right:auto;
+    padding-bottom: 100px;
+    width: 100px; 
+    height: 300px;
+    padding: 100px;
+    background-image: url('image/pda6.png');
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: center 00px
+
+
+}
+
+#section41 {
+    margin-left:0 ;
+    margin-right:150px;
+    padding-bottom: 100px;
+    width: 100px; 
+    height: 300px;
+    padding: 100px;
+    background-image: url('image/Pda\ 4\ .png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center 00px
+
+
 }
 
 
 
 
 
-
-}
