@@ -17,7 +17,17 @@ body {
 }
 
 
-/*Css du titre principal sur la page "index"*/
+/*Haut de page*/
+#Menu {
+    margin: auto;
+    width: 1200px;
+ }
+
+ 
+
+/*Page index*/
+
+/*Titre principal*/
 #Titre_Main {  color:#B1E7F0;
     margin: auto;
     height: 250px;
@@ -30,7 +40,7 @@ body {
     background-position: center center ;
 }
 
-/**/
+/*Section "À avoir"*/
 #avoir {
     margin: auto;
     height: 400px;
@@ -52,11 +62,49 @@ body {
     font-size: 1.2rem;
 }
 
-    #Menu {
-   margin: auto;
-   width: 1200px;
+
+/*3 images sur la page*/
+#image1main,
+#image2main,
+#image3main {
+    
+    margin-left:100px ;
+    margin-right:auto;
+    width: 800px; 
+    height: auto;
+    border-radius: 0px;
+    padding: 100px;
+    background-image: url('image/pda6.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
+/*3 blocs de texte à côté des images*/
+#PlaneteBox ,
+#ContactBox ,
+#ProposBox {
+     margin: auto;
+     padding: 100px ;
+    background-image: url('image/pda6.png');
+    background-size: 700px;
+    background-repeat: no-repeat ;
+    background-position: center center;
+}
+
+/*Bas de page*/
+footer {
+    text-align: left;
+    background: black;
+    padding: 50px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*Page À propos*/
+
+/*Première section*/
 #info {  
     color:#B1E7F0;
     margin: auto;
@@ -71,6 +119,11 @@ padding-right: 100px;
     background-position: center -10px  ;
 }
 
+#titrepropos {
+    font-size: xx-large;
+    font-weight: bold;
+    }    
+
 #insp  { 
 color:#B1E7F0;
     margin: auto;
@@ -82,11 +135,10 @@ color:#B1E7F0;
     background-image: url('image/pda6.png');
     background-size: 920px ;
     background-repeat: no-repeat ;
-    background-position: -60px -60px 
-
-   
+    background-position: -60px -60px   
 }
 
+/*Deuxième section*/
 #Elliot {
     text-align: center;
     padding: 200px;
@@ -107,6 +159,201 @@ background-repeat: no-repeat;
 background-position: center center;
 }
 
+/*Section références*/
+#références {
+
+    margin-left:auto ;
+    margin-right: auto;
+    padding-bottom: 0px;
+    width: 1257px; 
+    height: 300px;
+    padding: 100px;
+    background-image: url('image/Pda3.png');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center -70px
+
+}
+
+
+/*Page Contact*/
+
+/*Titres*/
+#titreContact {
+    margin-left:600px ;
+    margin-right:auto;
+    padding-bottom: 100px;
+    width: 600px; 
+    height: 50px;
+    padding: 100px;
+    background-image: url('image/Pda3.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center 50px;
+   
+}
+
+#SousTitreContact {
+
+    margin-left:400px ;
+    margin-right:auto;
+    padding-bottom: 100px;
+    width: 1000px; 
+    height: 300px;
+    padding: 100px;
+    background-image: url('image/Pda3.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center -150px;
+}
+
+/*Formulaire*/
+#form {
+    height: 1000px;
+    width: 1000px;
+        padding-left: 230px;
+        padding-right: 500px;
+        padding-bottom: 0px;
+        background-image: url('image/PDA5.png');
+        background-size: 1450px;
+        background-repeat: no-repeat ;
+        background-position: -350px 15px;
+    }
+
+
+/*Page libre*/
+
+/*Titre*/
+#TitreLibre  {
+    margin-left:450px ;
+    margin-right:auto;
+    padding-bottom: 100px;
+    width: 1000px; 
+    height: 100px;
+    padding: 100px;
+    background-image: url('image/Pda3.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center 50px
+}
+
+/*Premier bloc de texte*/
+#section12 {
+    margin-top: 00px;
+    margin-left:auto ;
+    margin-right:auto;
+    padding-bottom: 100px;
+    width: 800px; 
+    height: 500px;
+    padding: 100px;
+    background-image: url('image/pda6.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center -50px
+}
+
+/*Deuxième bloc de texte*/
+#section21 {
+    margin-left:300px ;
+    margin-right:auto;
+    padding-bottom: 100px;
+    width: 100px; 
+    height: 300px;
+    padding: 100px;
+    background-image: url('image/pda6.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center -50px
+}
+
+/*Troisième bloc de texte*/
+#section32 {
+    margin-left:300px ;
+    margin-right:auto;
+    padding-bottom: 100px;
+    width: 100px; 
+    height: 300px;
+    padding: 100px;
+    background-image: url('image/pda6.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center -50px
+}
+
+/*Quatrième bloc de texte*/
+#section41 {
+    margin-left:0 ;
+    margin-right:150px;
+    padding-bottom: 100px;
+    width: 100px; 
+    height: 300px;
+    padding: 100px;
+    background-image: url('image/pda6.png');
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center -50px
+}
+
+
+
+/*Autre css*/
+
+/*Images*/
+#peeper {
+    width: 200px;
+    size: 1000px 1000px;
+    transform: rotate(15deg);
+    padding-bottom: 500px;
+    }
+    
+    
+    
+    #planettitre {
+    
+    font-size: x-large;
+    font-weight: bold;
+    width: 700px;
+    padding-left: 50px;
+    }
+    
+    
+    
+    #alguetitre {
+    width: 700px;
+    font-size: x-large;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    }
+    
+    #alguesous {
+    
+    font-size: small;
+    padding-top: 100px;
+    
+    }
+    
+    #blood {
+    width: 700px;
+        font-size: x-large;
+    font-weight: bold;
+    padding-left: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS table*/
 table {
     width: 100%;
     border-collapse: collapse;
@@ -134,49 +381,11 @@ a:hover {
     color: #B1E7F0; 
 }
 
-#form {
-height: 1000px;
-width: 1000px;
-    padding-left: 230px;
-    padding-right: 500px;
-    padding-bottom: 0px;
-    background-image: url('image/PDA5.png');
-    background-size: 1450px;
-    background-repeat: no-repeat ;
-    background-position: -350px 15px;
-
-}
-
-#PlaneteBox ,
-#ContactBox ,
-#ProposBox {
-     margin: auto;
-     padding: 100px ;
-    background-image: url('image/pda6.png');
-    background-size: 700px;
-    background-repeat: no-repeat ;
-    background-position: center center;
-}
 
 table tr {
     text-align: center;
 }
 
-#image1main,
-#image2main,
-#image3main {
-    
-    margin-left:100px ;
-    margin-right:auto;
-    width: 800px; 
-    height: auto;
-    border-radius: 0px;
-    padding: 100px;
-    background-image: url('image/pda6.png');
-    background-size: 700px;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
 
 table td h2 {
     color:#B1E7F0;
@@ -202,184 +411,6 @@ table td a {
 table td a:hover {
     background: #43648F; 
 }
-
-footer {
-    text-align: left;
-    background: black;
-    padding: 50px;
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-    
-}
-
-#titreContact {
-    margin-left:600px ;
-    margin-right:auto;
-    padding-bottom: 100px;
-    width: 600px; 
-    height: 50px;
-    padding: 100px;
-    background-image: url('image/Pda3.png');
-    background-size: 200px;
-    background-repeat: no-repeat;
-    background-position: center 50px;
-   
-}
-
-
-#SousTitreContact {
-
-    margin-left:400px ;
-    margin-right:auto;
-    padding-bottom: 100px;
-    width: 1000px; 
-    height: 300px;
-    padding: 100px;
-    background-image: url('image/Pda3.png');
-    background-size: 900px;
-    background-repeat: no-repeat;
-    background-position: center -150px;
-}
-
-#TitreLibre  {
-    margin-left:450px ;
-    margin-right:auto;
-    padding-bottom: 100px;
-    width: 1000px; 
-    height: 100px;
-    padding: 100px;
-    background-image: url('image/Pda3.png');
-    background-size: 200px;
-    background-repeat: no-repeat;
-    background-position: center 50px
-}
-#section12 {
-    margin-top: 00px;
-    margin-left:auto ;
-    margin-right:auto;
-    padding-bottom: 100px;
-    width: 800px; 
-    height: 500px;
-    padding: 100px;
-    background-image: url('image/pda6.png');
-    background-size: 900px;
-    background-repeat: no-repeat;
-    background-position: center -50px
-
-}
-
-
-#section21 {
-    margin-left:300px ;
-    margin-right:auto;
-    padding-bottom: 100px;
-    width: 100px; 
-    height: 300px;
-    padding: 100px;
-    background-image: url('image/pda6.png');
-    background-size: 900px;
-    background-repeat: no-repeat;
-    background-position: center -50px
-
-
-}
-
-#section32 {
-    margin-left:300px ;
-    margin-right:auto;
-    padding-bottom: 100px;
-    width: 100px; 
-    height: 300px;
-    padding: 100px;
-    background-image: url('image/pda6.png');
-    background-size: 900px;
-    background-repeat: no-repeat;
-    background-position: center -50px
-
-
-}
-
-#section41 {
-    margin-left:0 ;
-    margin-right:150px;
-    padding-bottom: 100px;
-    width: 100px; 
-    height: 300px;
-    padding: 100px;
-    background-image: url('image/pda6.png');
-    background-size: 900px;
-    background-repeat: no-repeat;
-    background-position: center -50px
-
-
-}
-
-#références {
-
-    margin-left:auto ;
-    margin-right: auto;
-    padding-bottom: 0px;
-    width: 1257px; 
-    height: 300px;
-    padding: 100px;
-    background-image: url('image/Pda3.png');
-    background-size: 700px;
-    background-repeat: no-repeat;
-    background-position: center -70px
-
-}
-
-#titrepropos {
-font-size: xx-large;
-font-weight: bold;
-}
-
-#peeper {
-width: 200px;
-size: 1000px 1000px;
-transform: rotate(15deg);
-padding-bottom: 500px;
-}
-
-
-
-#planettitre {
-
-font-size: x-large;
-font-weight: bold;
-width: 700px;
-padding-left: 50px;
-}
-
-
-
-#alguetitre {
-width: 700px;
-font-size: x-large;
-font-weight: bold;
-padding-left: 50px;
-padding-bottom: 0px;
-}
-
-#alguesous {
-
-font-size: small;
-padding-top: 100px;
-
-}
-
-#blood {
-width: 700px;
-    font-size: x-large;
-font-weight: bold;
-padding-left: 50px;
-}
-
-
-
-
-
 
 
 
