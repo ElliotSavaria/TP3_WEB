@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/*Css pour la section "body" de toutes les pages*/
 body {
     font-family: Arial, sans-serif;
     background-image: url('image/water3.png')  , url('image/background3.png') ;
@@ -15,6 +10,14 @@ body {
     text-align: center;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Css du titre principal sur la page "index"*/
 #Titre_Main {  color:#B1E7F0;
     margin: auto;
     height: 250px;
@@ -27,12 +30,13 @@ body {
     background-position: center center ;
 }
 
+/**/
 #avoir {
     margin: auto;
     height: 400px;
     padding: 1000px;
-    background-image: url('image/Pda\ 4\ .png');
-    background-size: 550px;
+    background-image: url('image/Pda3.png');
+    background-size: 1000px;
     background-repeat: no-repeat ;
     background-position: 51% center;
 }
@@ -148,7 +152,7 @@ width: 1000px;
 #ProposBox {
      margin: auto;
      padding: 100px ;
-    background-image: url('image/Pda3.png');
+    background-image: url('image/pda6.png');
     background-size: 700px;
     background-repeat: no-repeat ;
     background-position: center center;
@@ -164,12 +168,12 @@ table tr {
     
     margin-left:100px ;
     margin-right:auto;
-    width: 600px; 
+    width: 800px; 
     height: auto;
-    border-radius: 20px;
+    border-radius: 0px;
     padding: 100px;
     background-image: url('image/pda6.png');
-    background-size: 500px;
+    background-size: 700px;
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -263,7 +267,8 @@ footer {
     background-repeat: no-repeat;
     background-position: center -50px
 
-
+#section12 p {
+    font-size: 2000px;
 }
 
 
